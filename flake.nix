@@ -26,6 +26,8 @@
         packages.default = customHaskellPackages.ghcWithPackages (p: [
           p.streamly-core
           p.streamly-process
+          p.tasty
+          p.tasty-hunit
         ]);
       }
     );
